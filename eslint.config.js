@@ -1,9 +1,9 @@
-import eslintPluginPrettier from 'eslint-plugin-prettier';
-import prettierConfig from 'eslint-config-prettier';
-import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin';
-import typescriptParser from '@typescript-eslint/parser';
+const eslintPluginPrettier = require('eslint-plugin-prettier');
+const prettierConfig = require('eslint-config-prettier');
+const typescriptEslintPlugin = require('@typescript-eslint/eslint-plugin');
+const typescriptParser = require('@typescript-eslint/parser');
 
-export default [
+module.exports = [
   {
     files: ['**/*.ts', '**/*.tsx'], // 仅应用于 TypeScript 文件
     languageOptions: {
