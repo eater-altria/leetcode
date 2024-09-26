@@ -1,4 +1,4 @@
-use leetcode::rs::leetcode_88;
+use leetcode::rs::leetcode_88::merge;
 
 #[test]
 fn case_1() {
@@ -6,7 +6,7 @@ fn case_1() {
     let m = 3;
     let mut nums2 = vec![2, 4, 6];
     let n = 3;
-    leetcode_88::merge(&mut nums1,m,  &mut nums2, n);
+    merge(&mut nums1,m,  &mut nums2, n);
     assert_eq!(nums1, vec![1, 2, 3, 4, 5, 6]);
 }
 
@@ -16,7 +16,7 @@ fn case_2() {
     let m = 3;
     let mut nums2 = vec![2, 5, 6];
     let n = 3;
-    leetcode_88::merge(&mut nums1,m,  &mut nums2, n);
+    merge(&mut nums1,m,  &mut nums2, n);
     assert_eq!(nums1, vec![1, 2, 2, 3, 5, 6]);
 }
 
@@ -26,7 +26,7 @@ fn case_3() {
     let m = 1;
     let mut nums2 = vec![];
     let n = 0;
-    leetcode_88::merge(&mut nums1,m,  &mut nums2, n);
+    merge(&mut nums1,m,  &mut nums2, n);
     assert_eq!(nums1, vec![1]);
 }
 
@@ -36,6 +36,6 @@ fn case_4() {
     let m = 0;
     let mut nums2 = vec![1];
     let n = 1;
-    leetcode_88::merge(&mut nums1,m,  &mut nums2, n);
+    merge(&mut nums1,m,  &mut nums2, n);
     assert_eq!(nums1, vec![1]);
 }
