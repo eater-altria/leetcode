@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { rotate } from '../src/189';
+import { rotate } from '../../src/ts/189';
 
 describe('27 Test', () => {
   test('Case 1', () => {

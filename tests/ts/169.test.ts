@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { majorityElement } from '../src/169';
+import { majorityElement } from '../../src/ts/169';
 
 describe('27 Test', () => {
   test('Case 1', () => {

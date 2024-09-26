@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { merge } from '../src/88';
+import { merge } from '../../src/ts/88';
 
 describe('88 Test', () => {
   test('Case 1', () => {

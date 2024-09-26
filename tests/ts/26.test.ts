@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { removeDuplicates } from '../src/26';
+import { removeDuplicates } from '../../src/ts/26';
 
 describe('27 Test', () => {
   test('Case 1', () => {

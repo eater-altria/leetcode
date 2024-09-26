@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { TreeNode, levelOrder } from '../src/102';
+import { TreeNode, levelOrder } from '../../src/ts/102';
 
 describe('102 Test', () => {
   test('Case 1', () => {
