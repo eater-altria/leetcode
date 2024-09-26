@@ -9,4 +9,5 @@ pub mod rs {
     pub mod leetcode_121_test;
     pub mod leetcode_122_test;
     pub mod leetcode_169_test;
+    pub mod leetcode_189_test;
 }

@@ -13,4 +13,5 @@ pub mod rs {
     pub mod leetcode_121;
     pub mod leetcode_122;
     pub mod leetcode_169;
+    pub mod leetcode_189;
 }
