@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 import { removeDuplicates } from '../../src/ts/26';
 
-describe('27 Test', () => {
+describe('26 Test', () => {
   test('Case 1', () => {
     const nums = [1, 1, 2];
     expect(removeDuplicates(nums)).toBe(2);

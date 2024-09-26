@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 import { rotate } from '../../src/ts/189';
 
-describe('27 Test', () => {
+describe('189 Test', () => {
   test('Case 1', () => {
     const nums = [1, 2, 3, 4];
     rotate(nums, 1);

@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 import { majorityElement } from '../../src/ts/169';
 
-describe('27 Test', () => {
+describe('169 Test', () => {
   test('Case 1', () => {
     expect(majorityElement([6, 5, 5])).toBe(5);
   });
