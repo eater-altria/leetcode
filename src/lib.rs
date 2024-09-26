@@ -5,4 +5,6 @@ pub fn leetcode() {
 pub mod rs {
     pub mod leetcode_26;
     pub mod leetcode_27;
+    pub mod leetcode_80;
+    pub mod leetcode_88;
 }
