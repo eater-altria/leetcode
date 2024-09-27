@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node",
-    "test": "jest",
+    "test": "cargo test && jest",
     "lint": "pnpm eslint ./**/*.ts"
   },
   "author": "",
