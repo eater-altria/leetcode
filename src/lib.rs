@@ -6,6 +6,7 @@ pub mod rs {
     pub mod leetcode_42;
     pub mod leetcode_45;
     pub mod leetcode_55;
+    pub mod leetcode_58;
     pub mod leetcode_80;
     pub mod leetcode_88;
     pub mod leetcode_102;
