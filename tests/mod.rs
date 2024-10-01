@@ -1,4 +1,5 @@
 pub mod rs {
+    pub mod leetcode_6_test;
     pub mod leetcode_12_test;
     pub mod leetcode_13_test;
     pub mod leetcode_14_test;
@@ -15,6 +16,7 @@ pub mod rs {
     pub mod leetcode_122_test;
     pub mod leetcode_134_test;
     pub mod leetcode_135_test;
+    pub mod leetcode_151_test;
     pub mod leetcode_169_test;
     pub mod leetcode_189_test;
     pub mod leetcode_238_test;
